@@ -5,7 +5,7 @@
     "picture": "https://github.com/tomokicheung.png",
     "email": "tom@ourcradle.com",
     "website": "https://ourcradle.com",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa, and I expect to graduate in Fall 2027. Alongside my degree I build and deploy websites for real clients, and I am working toward software engineering at the intersection of hardware and AI.",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa, and I expect to graduate in Fall 2027. I like building things, and I am working toward software engineering at the intersection of hardware and AI.",
     "location": { "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "tomokicheung", "url": "https://github.com/tomokicheung" },
@@ -40,7 +40,7 @@
     },
     {
       "institution": "Kapiolani Community College, Honolulu, HI",
-      "area": "Computer Science",
+      "area": "Information Technology",
       "studyType": "A.S.",
       "startDate": "2021-08-01",
       "endDate": "2023-05-01",
