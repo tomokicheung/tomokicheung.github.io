@@ -31,7 +31,11 @@ When I did, the console looked empty. It was not. Chrome hides messages behind a
 
 A script had been blocked by my own [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy).
 
-A Content Security Policy is an
+A Content Security Policy is an HTTP header that tells the browser which sources it is allowed to load code from. It is a security measure. If someone injects a malicious script into your page, a strict policy means the browser refuses to run it. I had added one a few days earlier by reading through my HTML, listing every domain the page loads something from, and allowing exactly those.
+
+```
+script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net;
+```
 
 That list is correct for the file. The file is not the whole page.
 
