@@ -13,7 +13,7 @@ labels:
 summary: "An e-commerce brand selling laser-engraved wood phone cases, built and operated end to end under my own LLC."
 ---
 
-Krafty Case sells laser-engraved cherry wood iPhone cases set into a shock-absorbing TPU frame, engraved with Hawaiʻi motifs like honu and hibiscus alongside art-deco patterns. Cherry was the only material I carried. Maple and bamboo variants were planned for a later order, once I knew the business could support the inventory.
+Krafty Case sells laser-engraved cherry wood iPhone cases set into a shock-absorbing TPU frame, engraved with Hawaiʻi motifs like honu and hibiscus alongside art-deco patterns. Cherry was the only material I carried. Maple and bamboo variants were planned for a later order, assuming the business could support the inventory.
 
 I started it with money I had saved growing up, to find out how far I could get running an entire business rather than just building the website for one. I registered the LLC, obtained an EIN from the IRS, opened business banking, sourced the product, and built the storefront on Shopify. I shot the product photography myself on Oʻahu, wrote the brand and product copy, ran paid acquisition through Meta Ads, and fulfilled orders from Hawaiʻi to the mainland using Shopify-generated shipping labels through USPS.
 

@@ -43,14 +43,14 @@ script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdel
 
 That list is correct for the file. The file is not the whole page. The site is served through Cloudflare, and Cloudflare adds its own analytics script to pages at the edge. It is not in my HTML, it does not appear in my editor, and it does not exist on my computer. It is added on the way out to the visitor, and my policy blocked it because I did not know it was there.
 
-I found it by asking Claude to diagnose it and working through the possibilities until we opened the browser console and read the error, which took a fraction of the time the guessing had. I fixed it that morning, then told the client what had happened rather than waiting for them to notice.
+I found it by asking Claude to diagnose it and working through the possibilities until we opened the browser console and read the error. Reading it took a fraction of the time the guessing had. I fixed it that morning, then told the client what had happened rather than waiting for them to notice.
 
 ## Why I am in school
 
 The fix was one line. Understanding why the line was needed is the part I could not have arrived at on my own, and that is the whole point.
 
-This is what I had been uneasy about all summer, arriving in a form I could not talk myself out of. It was not a bug in something I wrote. It was a bug in the space between my code, a platform's behaviour, and a security header I had added without fully understanding what it governed. Nothing in the file would have told me. No audit I knew how to ask for would have caught it, because I did not know the question.
+This is what I had been uneasy about all summer, arriving in a form I could not talk myself out of. It was not a bug in something I wrote. It was a bug in the space between my code, a platform's behavior, and a security header I had added without fully understanding what it governed. Nothing in the file would have told me. No audit I knew how to ask for would have caught it, because I did not know the question.
 
-I am pursuing a computer science degree because that is the gap it closes. Not the syntax, which I can already get from a model faster than I could type it. The fundamentals underneath: how systems compose, what happens at the boundaries between things you wrote and things you did not, why a piece of infrastructure behaves differently in production than on your laptop. Producing something that works and understanding it well enough to fix it when it stops working are not the same skill, and only one of them survives contact with a real client.
+I am pursuing a computer science degree because that is the gap it closes. Not the syntax, which I can already get from a model faster than I could type it. The fundamentals underneath: how systems compose, what happens at the boundaries between things you wrote and things you did not, why a piece of infrastructure behaves differently in production than it does on your laptop. Producing something that works and understanding it well enough to fix it when it stops working are not the same skill, and only one of them survives contact with a real client.
 
 I am not going to stop building with these tools. They are genuinely useful and I would be worse off without them. But I would rather be the person who can read what comes back. I still do not fully understand everything that happened that morning, and I intend to keep chipping away at that. Knowing specifically what I am missing is a considerably better position than not knowing.
