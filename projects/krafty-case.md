@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/kraftycase/kraftycase-square.jpg
+image: img/kraftycase/kraftycase-square.png
 title: "Krafty Case"
 date: 2023-06-01
 published: true
