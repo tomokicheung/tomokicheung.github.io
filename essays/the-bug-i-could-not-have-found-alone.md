@@ -13,44 +13,46 @@ labels:
 
 ## Building faster than I was learning
 
-Over the past several months I have built and shipped a handful of real websites, including one for a paying client, working alongside large language models the entire time. It worked. That is the part worth saying plainly, because a lot of writing on this subject starts by arguing that it does not.
+Over the past several months, I've built and launched a handful of websites, including one for a paying client. I worked with large language models throughout the process. They helped me turn ideas into working sites, but as I kept building, I started noticing a gap between what I could produce and what I actually understood.
 
-What I had was direction. I knew what I wanted a site to do, how it should feel to use, what the business behind it actually needed. What I did not have, and did not notice I was missing for a while, was the ability to keep up with the code I was shipping. Somewhere in the middle of those projects the gap opened up. I could still explain what a page was supposed to do. I could no longer explain how it did it.
+I knew what I wanted each site to do, how it should feel to use, and what the business needed. But I couldn't always explain the code behind it. I could describe what a page was supposed to do without fully understanding how it did it.
 
-That is an uncomfortable position to be in when someone else's business is running on the result.
+That bothered me, especially with a client relying on something I'd built.
 
-## The parts I did watch
+## What I was paying attention to
 
-I want to be fair to myself here, because I was not careless about it.
+I wasn't ignoring security. I knew public repositories were accessible to anyone, and that anything pushed to one could remain accessible even after deletion. I asked for security reviews and pushed back when something looked wrong. I paid attention to API keys, credentials, and anything that could give someone access to my account or a client's.
 
-I knew that a public repository is public, and that anything committed to one is effectively permanent. I asked for security reviews on the projects I worked on and pushed back when something looked wrong. I was deliberate about API keys and credentials, and about not exposing anything that would let someone act on my account or a client's. Those are the failure modes people write articles about, and I was watching for them.
+Those were risks I knew to check for. What concerned me was everything I didn't know enough to recognize.
 
-The problem is that those are the failures you can look for. You know to check whether a key is in the frontend because someone told you to check. The failures that worried me over the summer were the ones I would not know to look for, because knowing to look for them requires understanding the system well enough to imagine how it breaks. I did not have that. I had a working site and a strong sense that "working" and "sound" are not the same word.
+I could ask whether I'd exposed a secret key. It was harder to ask useful questions about parts of the system I didn't understand. Having a working website didn't tell me whether I'd accounted for the ways it could fail.
 
-## The morning it stopped being theoretical
+## When the gallery broke
 
-I check the websites I have built every morning. It takes two minutes.
+I check the websites I've built every morning. It usually takes a couple of minutes.
 
-About a week after launching my client's site, the services gallery was broken. Cards that were supposed to slide left to right as you scrolled were stacked vertically instead, and the images inside them were gone. Nothing had been deployed since the day before. Opening the same page on my own machine looked completely normal.
+About a week after launching my client's site, I found the services gallery broken. Cards that were supposed to move horizontally as you scrolled were stacked vertically, and the images weren't showing. I hadn't deployed anything since the day before. On my own machine, the page still looked normal.
 
-My first guess was that the images were misaligned and something in the CSS had broken. That is what it looked like. It did not occur to me that the cause might have nothing to do with my code at all, because I did not know that was a category of problem that existed.
+My first thought was that something had gone wrong with the CSS. The layout was broken, so that's where I focused.
 
-It was not the CSS. A script had been blocked by a [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy) I had added a few days earlier. A Content Security Policy is an HTTP header that tells the browser which sources it may load code from, and I had written mine the obvious way: read through the HTML, list every domain the page loads something from, allow exactly those.
+I asked Claude to help diagnose it. We worked through possibilities until we opened the browser console and found an error saying a [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy) was blocking a script.
 
-```
-script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net;
-```
+I'd added that policy a few days earlier. A CSP sets rules for what the browser is allowed to load or execute. I'd put it together by checking the resources referenced in my HTML, but I hadn't fully accounted for what happened when the site was served through Cloudflare.
 
-That list is correct for the file. The file is not the whole page. The site is served through Cloudflare, and Cloudflare adds its own analytics script to pages at the edge. It is not in my HTML, it does not appear in my editor, and it does not exist on my computer. It is added on the way out to the visitor, and my policy blocked it because I did not know it was there.
+Cloudflare's features can affect what reaches the browser, including adding scripts that aren't in the files I edit. That was a part of the setup I hadn't understood.
 
-I found it by asking Claude to diagnose it and working through the possibilities until we opened the browser console and read the error. Reading it took a fraction of the time the guessing had. I fixed it that morning, then told the client what had happened rather than waiting for them to notice.
+I made a change that morning and the gallery worked again. Then I told the client what had happened.
 
-## Why I am in school
+I still need to be precise about the diagnosis. Finding a blocked script and getting the gallery working again didn't mean I'd fully traced how the two were connected. I'd restored the page, but I still had more to understand.
 
-The fix was one line. Understanding why the line was needed is the part I could not have arrived at on my own, and that is the whole point.
+## Why I'm studying computer science
 
-This is what I had been uneasy about all summer, arriving in a form I could not talk myself out of. It was not a bug in something I wrote. It was a bug in the space between my code, a platform's behavior, and a security header I had added without fully understanding what it governed. Nothing in the file would have told me. No audit I knew how to ask for would have caught it, because I did not know the question.
+That experience gave me a specific example of the gap I'd been noticing.
 
-I am pursuing a computer science degree because that is the gap it closes. Not the syntax, which I can already get from a model faster than I could type it. The fundamentals underneath: how systems compose, what happens at the boundaries between things you wrote and things you did not, why a piece of infrastructure behaves differently in production than it does on your laptop. Producing something that works and understanding it well enough to fix it when it stops working are not the same skill, and only one of them survives contact with a real client.
+I'd been looking at the files in my editor without fully understanding everything involved in delivering the site to a visitor. The browser, hosting setup, scripts, and security settings were all part of the system I was responsible for.
 
-I am not going to stop building with these tools. They are genuinely useful and I would be worse off without them. But I would rather be the person who can read what comes back. I still do not fully understand everything that happened that morning, and I intend to keep chipping away at that. Knowing specifically what I am missing is a considerably better position than not knowing.
+That's part of why I'm pursuing a computer science degree. I want a stronger understanding of how these pieces work together so I can make better decisions and troubleshoot with more confidence. The coursework won't do that for me on its own. I'll need to keep applying what I learn to the things I build.
+
+Working with LLMs has helped me build more than I could have managed on my own at this stage. I'm going to keep using them. But I'd like to get better at reading their output, questioning it, and understanding what I'm putting into production.
+
+I don't expect to know everything. I do want my understanding to keep up with the responsibility I'm taking on.
