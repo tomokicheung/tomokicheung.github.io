@@ -41,6 +41,10 @@ I'd added that policy a few days earlier. A CSP sets rules for what the browser 
 
 Cloudflare's features can affect what reaches the browser, including adding scripts that aren't in the files I edit. That was a part of the setup I hadn't understood.
 
+<img class="ui image" src="../img/essay/console-error.png" alt="Browser console showing a Content Security Policy blocking Cloudflare's beacon script">
+
+*The console error. The first message is Cloudflare's script being blocked. The second is the site's own fallback reporting that a script failed to load.*
+
 I made a change that morning and the gallery worked again. Then I told the client what had happened.
 
 I still need to be precise about the diagnosis. Finding a blocked script and getting the gallery working again didn't mean I'd fully traced how the two were connected. I'd restored the page, but I still had more to understand.
