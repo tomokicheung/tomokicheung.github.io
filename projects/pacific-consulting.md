@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/pacific/pacific-square.png
 title: "Pacific Consulting Hawaiʻi"
-date: 2026-05-01
+date: 2026-08-02
 published: true
 labels:
   - Web Development

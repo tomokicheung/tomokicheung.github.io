@@ -93,52 +93,56 @@
   ],
   "work": [
     {
-      "company": "Pacific Consulting Hawaii",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2026-05-01",
+      "company": "Our Cradle LLC",
+      "position": "Founder and Web Developer",
+      "website": "https://ourcradle.com",
+      "startDate": "2026-01-01",
       "endDate": "Present",
-      "summary": "Migrated the company website from Shopify to a static stack",
+      "summary": "Web development studio serving Honolulu businesses",
       "highlights": [
-        "Rebuilt and deployed the site on Cloudflare Workers with a Git-based workflow",
-        "Configured DNS, TLS, and Content-Security-Policy headers for the production domain",
-        "Authored a migration runbook and handoff documentation for the client"
+        "Migrated a client's live production domain off Shopify to Cloudflare in five days, cutting recurring hosting cost from $39 per month to near zero",
+        "Built and deployed a bilingual English and Japanese site to Cloudflare Workers from a Git repository using the Wrangler CLI",
+        "Owned each engagement from first meeting through handoff, including repository ownership transfer and a plain-language platform walkthrough",
+        "Won this contract from a company previously served as a laborer, which produced a referral to a second client"
       ]
     },
     {
-      "company": "AO International",
-      "position": "Event Operations",
-      "website": "",
-      "startDate": "2022-08-01",
-      "endDate": "2026-01-31",
-      "summary": "Client-facing event operations for large-scale corporate and international events",
-      "highlights": [
-        "Supported RIMPAC events aboard the USS Abraham Lincoln and USS Carl Vinson",
-        "Answered product questions from visitors at the Sony Open in Japanese and English"
-      ]
-    },
-    {
-      "company": "CFX Hawaii",
-      "position": "Exhibit Fabrication and Installation",
-      "website": "",
+      "company": "Krafty Case (dba, Aikra LLC)",
+      "position": "Founder",
+      "website": "https://kraftycase.com",
       "startDate": "2023-01-01",
-      "endDate": "2026-01-31",
-      "summary": "Workshop fabrication and on-site installation of exhibits and trade show booths",
+      "endDate": "2026-01-01",
+      "summary": "E-commerce brand selling laser-engraved wood phone cases",
       "highlights": [
-        "Built and installed booths for clients including Canon, Honeywell, and Hawaiian Airlines",
-        "Completed installations across Oahu, Maui, and Kauai"
+        "Sourced and contracted an overseas supplier through sample orders, design revisions, and a bulk purchase",
+        "Registered the LLC, obtained a federal EIN, and filed semiannual state tax returns without outside assistance",
+        "Ran paid social campaigns targeting a demographic studied from in-person sales, and fulfilled every order with no disputed delivery",
+        "Suspended the storefront in 2026 after determining that ad spend exceeded per-unit margin"
       ]
     },
     {
-      "company": "Staffing Partners",
-      "position": "Event Staff",
+      "company": "CFX Hawaii and AO International",
+      "position": "Exhibit Fabrication, Installation, and Event Operations",
       "website": "",
-      "startDate": "2021-12-01",
-      "endDate": "2025-12-31",
-      "summary": "Intermittent event and screening work at Honolulu venues",
+      "startDate": "2022-01-01",
+      "endDate": "2026-01-01",
+      "summary": "Trade show and event fabrication across the Hawaiian islands",
       "highlights": [
-        "Processed over 1,000 vehicles per day as a COVID-19 screener at the Blaisdell Center",
-        "Supported trade shows and events at the Blaisdell Center and Waikiki Shell"
+        "Supported RIMPAC hosted events aboard the USS Abraham Lincoln and USS Carl Vinson at Joint Base Pearl Harbor-Hickam",
+        "Fabricated and installed exhibits for Honeywell, Canon, Hawaiian Airlines, RevoluSun, and the Sony Open",
+        "Traveled to Maui and Kauai for off-island installations, and staffed events in both English and Japanese"
+      ]
+    },
+    {
+      "company": "Pacific Consulting Hawaii and Staffing Partners",
+      "position": "Logistics, Event, and Screening Support",
+      "website": "",
+      "startDate": "2021-01-01",
+      "endDate": "2025-01-01",
+      "summary": "Event labor and logistics for corporate and private clients",
+      "highlights": [
+        "Provided moving and event labor for corporate clients and private hosts running large events",
+        "Processed over 1,000 vehicles on peak days as a COVID-19 screener at Neal S. Blaisdell Center"
       ]
     }
   ],

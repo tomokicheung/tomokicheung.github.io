@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/ourcradle/ourcradle-square.png
 title: "Our Cradle"
-date: 2026-01-01
+date: 2026-07-24
 published: true
 labels:
   - Web Development
