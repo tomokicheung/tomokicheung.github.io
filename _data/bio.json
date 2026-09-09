@@ -103,11 +103,11 @@
         "Migrated a client's live production domain off Shopify to Cloudflare in five days, cutting recurring hosting cost from $39 per month to near zero",
         "Built and deployed a bilingual English and Japanese site to Cloudflare Workers from a Git repository using the Wrangler CLI",
         "Owned each engagement from first meeting through handoff, including repository ownership transfer and a plain-language platform walkthrough",
-        "Won this contract from a company previously served as a laborer, which produced a referral to a second client"
+        "Won this contract from a company I had previously worked for as a contractor, which produced a referral to a second client"
       ]
     },
     {
-      "company": "Krafty Case (dba, Aikra LLC)",
+      "company": "Krafty Case",
       "position": "Founder",
       "website": "https://kraftycase.com",
       "startDate": "2023-01-01",
