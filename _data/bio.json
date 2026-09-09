@@ -5,28 +5,72 @@
     "picture": "img/tomoki-square.jpg",
     "email": "tom@ourcradle.com",
     "website": "https://ourcradle.com",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa, and I expect to graduate in Fall 2027. I like building things, and I am working toward software engineering at the intersection of hardware and AI.",
-    "location": { "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I am pursuing a B.S. in Computer Science on the general track at the University of Hawaii at Manoa, and I expect to graduate in Fall 2027. I enjoy building things, and I am working toward a career that intersects software and hardware.",
+    "location": {
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "tomokicheung", "url": "https://github.com/tomokicheung" },
-      { "network": "linkedin", "username": "tomokicheung", "url": "https://www.linkedin.com/in/tomokicheung/" },
-      { "network": "email", "username": "tom@ourcradle.com", "url": "mailto:tom@ourcradle.com" }
+      {
+        "network": "github",
+        "username": "tomokicheung",
+        "url": "https://github.com/tomokicheung"
+      },
+      {
+        "network": "linkedin",
+        "username": "tomokicheung",
+        "url": "https://www.linkedin.com/in/tomokicheung/"
+      },
+      {
+        "network": "email",
+        "username": "tom@ourcradle.com",
+        "url": "mailto:tom@ourcradle.com"
+      }
     ]
   },
   "interests": [
-    { "name": "Web Development" },
-    { "name": "AI and Machine Learning" },
-    { "name": "Hardware and Software Integration" },
-    { "name": "Network Science" }
+    {
+      "name": "Website Development"
+    },
+    {
+      "name": "Experimenting with LLMs"
+    },
+    {
+      "name": "E-commerce Entrepreneurship"
+    },
+    {
+      "name": "Traveling to Japan"
+    },
+    {
+      "name": "Hiking"
+    },
+    {
+      "name": "Time with Family"
+    }
   ],
   "skills": [
     {
       "name": "Languages",
-      "keywords": [ "C", "Java", "HTML", "CSS", "JavaScript" ]
+      "keywords": [
+        "C",
+        "Java",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     },
     {
       "name": "Tools and Platforms",
-      "keywords": [ "Git/GitHub", "Linux/Ubuntu", "VS Code", "Cloudflare", "GitHub Pages", "Jekyll" ]
+      "keywords": [
+        "Git/GitHub",
+        "Linux/Ubuntu",
+        "VS Code",
+        "Cloudflare",
+        "GitHub Pages",
+        "Jekyll"
+      ]
     }
   ],
   "education": [
@@ -99,6 +143,8 @@
     }
   ],
   "references": [
-    { "name": "Available upon request" }
+    {
+      "name": "Available upon request"
+    }
   ]
 }
