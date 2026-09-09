@@ -19,3 +19,4 @@ I designed and built the studio's own site, which is where I make the technical 
 The decision I am most pleased with is one you cannot see on the page. I built and styled a complete testimonial section, then commented it out with a note to myself: do not publish this until a real, attributed quote from the client is in hand, because a placeholder quote a prospect recognizes as filler makes the rest of the page stop being believable. Leaving a finished component unpublished was harder than building it. That instinct has been the useful one commercially as well. Pacific Consulting referred the studio's next client, and that client chose to work with me only after examining kraftycase.com and how the store was set up. Shipped, verifiable work brought in the next project. A testimonial I had written myself would not have.
 
 Live site: [ourcradle.com](https://ourcradle.com/)
+Source is a private repository held in the Our Cradle GitHub organization.
