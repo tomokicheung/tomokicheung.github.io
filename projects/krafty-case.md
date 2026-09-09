@@ -10,7 +10,7 @@ labels:
   - Shopify
   - Business Operations
   - Logistics
-summary: "An e-commerce brand selling laser-engraved wood phone cases, built and operated end to end under my own LLC."
+summary: "I started an e-commerce business with my own savings to see how far I could take it. Wood phone cases, sold from Hawaii to the mainland."
 ---
 
 Krafty Case sells laser-engraved cherry wood iPhone cases set into a shock-absorbing TPU frame, engraved with Hawaiʻi motifs like honu and hibiscus alongside art-deco patterns. Cherry was the only material I carried. Maple and bamboo variants were planned for a later order, assuming the business could support the inventory.

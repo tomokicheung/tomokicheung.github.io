@@ -9,7 +9,7 @@ labels:
   - Web Development
   - HTML/CSS/JavaScript
   - Entrepreneurship
-summary: "A small web development studio I started in Honolulu, building sites for businesses without a technical person on staff."
+summary: "The web development studio I started in Honolulu. It is early, and I am still working out what it looks like in practice."
 ---
 
 Our Cradle is a small web development studio I started in Honolulu. The idea is simple: build websites for businesses that do not have anyone technical on staff, and handle the accounts, domains, and email records along with the site itself. It is early, and I am still working out what the business actually looks like in practice.

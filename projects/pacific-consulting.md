@@ -10,7 +10,7 @@ labels:
   - Cloudflare
   - Internationalization
   - Client Work
-summary: "Migrated a Honolulu events and logistics company off Shopify to a bilingual static site, keeping the same domain with no downtime."
+summary: "My first client. They were paying for Shopify without selling anything on it, so I moved them to a static site in English and Japanese."
 ---
 
 Pacific Consulting Hawaiʻi is a Honolulu events and logistics company. They plan events, staff crews, run trucking, and handle inter-island freight. They are a service business, not a retailer.
