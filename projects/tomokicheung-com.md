@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/tomokicheung/tomokicheung-square.jpg
+image: img/tomokicheung/tomokicheung-square.png
 title: "tomokicheung.com"
 date: 2026-09-09
 published: true

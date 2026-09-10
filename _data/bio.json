@@ -5,7 +5,7 @@
     "picture": "img/tomoki-square.jpg",
     "email": "tom@ourcradle.com",
     "website": "https://tomokicheung.com",
-    "summary": "I am pursuing a B.S. in Computer Science on the general track at the University of Hawaii at Manoa, and I expect to graduate in Fall 2027. Alongside school I run a small web development studio in Honolulu, building sites for businesses that do not have anyone technical on staff. I like building things, and I am working toward a career where software and hardware meet.",
+    "summary": "I am pursuing a B.S. in Computer Science on the general track at the University of Hawaii at Manoa, and I expect to graduate in Fall 2027. Alongside school I run a small web development studio in Honolulu, building sites for businesses that do not have anyone technical on staff. I recently rebuilt my personal site at tomokicheung.com and kept the repository public, decision records included, so the reasoning behind it can be read alongside the code. I like building things, and I am working toward a career where software and hardware meet.",
     "location": {
       "postalCode": "96826",
       "city": "Honolulu",
@@ -22,11 +22,6 @@
         "network": "linkedin",
         "username": "tomokicheung",
         "url": "https://www.linkedin.com/in/tomokicheung/"
-      },
-      {
-        "network": "globe",
-        "username": "tomokicheung.com",
-        "url": "https://tomokicheung.com"
       }
     ]
   },
