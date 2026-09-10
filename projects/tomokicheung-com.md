@@ -10,16 +10,20 @@ labels:
   - Cloudflare Workers
   - TypeScript
   - Web Security
-summary: "My personal site, rebuilt from a single 5.5MB HTML file into a static Astro build with the reasoning behind every decision written down in the public repository."
+summary: "My personal site showcasing client work, writing, and projects, built with Astro."
 ---
 
-tomokicheung.com is my personal site. I own the domain and I wanted one place under my own name holding my client work, my writing, and a record of what I have been doing. The starting material was a single HTML file I had written earlier in the year. It was 5,529,152 bytes, of which about 73,000 was actual code. The rest was sixteen images encoded as base64 text and pasted inline, which inflated 4.1MB of image into 5.5MB of text that no browser could cache separately.
+tomokicheung.com is my personal site, bringing together my client work, writing, and projects under my own domain. I started with a single HTML file I had worked on earlier in the year and rebuilt it to make the content easier to organize, update, and maintain.
 
-I rebuilt it as a static Astro site served from Cloudflare Workers. Content lives in collections with schemas that validate at build time, so a typo in a project's status fails the build rather than rendering. Fonts are self-hosted instead of loaded from Google, which removed two external origins and made an enforced Content Security Policy of `script-src 'self'` possible with no exceptions at all. I wrote eleven decision records into the public repository, each recording the options I rejected alongside the one I chose, because six months from now the decision is the part I will remember and the reasoning is the part I will not.
+The site uses Astro and is deployed through Cloudflare Workers. Shared layouts keep navigation and styling consistent across pages, while content collections check entries for missing or invalid information during the build. Fonts are self-hosted, and a Content Security Policy restricts scripts to the site's own origin. I documented the technical choices and alternatives considered so I could return to the reasoning behind them.
 
-I built it working with Claude throughout, and I could not have built it alone at my current level. I do not think pretending otherwise would be worth anything. What I brought was the constraints and the discipline to hold to them: check for exposed credentials before every commit, verify a countermeasure by watching it fire rather than by reading it, and write down every error as it happened. Claude followed those and sharpened them. I made every decision and ran every command.
+I worked with Claude throughout the project. At my current level, I could not have completed the same build independently. I set the requirements, reviewed proposed changes, made the final decisions, and ran the commands. The process included checking for exposed credentials before commits, testing security controls, and recording errors and their resolutions.
 
-What I took from it was a distinction I had not made before, between a check and a test. A check confirms what you expect. A test can tell you that you are wrong. Almost everything I verified during this build passed and taught me nothing. The few that found something were the ones written so that failure would be visible: a commit hook I tested by planting a fake credential rather than by reading it, a request made over plain HTTP instead of HTTPS, and a contrast measurement on text I had chosen by eye. That last one came back at 1.58 to 1, where the standard for body text asks for at least 4.5 to 1. In plain terms, the grey was close enough to the background that it was barely there. It had already shipped to five pages, it looked fine to me, and neither of us had thought to measure it. By the end of the day the error log had fourteen entries, and most of what it caught surfaced because I read output I expected to be boring.
+The build helped me become more deliberate about reviewing changes and testing the result. In one instance, Claude provided an updated file based on an older version. Replacing my local file would have removed navigation and accessibility changes I had already made. We caught the mismatch before applying it and adjusted the process to make targeted edits against the current file.
+
+An accessibility check also found that some text was too close in color to its background. It looked acceptable to me, but the contrast was below accessibility requirements across several pages. I corrected the text colors and separated them from colors used for decorative lines so they could be adjusted independently.
+
+I recorded these problems and their resolutions in the build runbook. Alongside the technical decisions, those notes explain what went wrong, how we found it, and what to check next time. The site gives me a place to share my work, and the documentation gives me a process to revisit and improve as I continue building.
 
 Live site: [tomokicheung.com](https://tomokicheung.com/)
 
