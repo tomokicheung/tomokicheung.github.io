@@ -27,16 +27,16 @@
   },
   "interests": [
     {
-      "name": "Website Development"
+      "name": "Web Development"
     },
     {
       "name": "Experimenting with LLMs"
     },
     {
-      "name": "E-commerce Entrepreneurship"
+      "name": "E-commerce"
     },
     {
-      "name": "Traveling to Japan"
+      "name": "Travel to Japan"
     },
     {
       "name": "Hiking"
@@ -58,14 +58,21 @@
       ]
     },
     {
-      "name": "Frameworks and Tools",
+      "name": "Frameworks and Runtimes",
       "keywords": [
         "Astro",
         "Jekyll",
-        "Node.js",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "keywords": [
         "npm",
-        "Git/GitHub",
+        "Git",
+        "GitHub",
         "GitHub Actions",
+        "Wrangler CLI",
         "VS Code",
         "Linux/Ubuntu"
       ]
@@ -74,20 +81,24 @@
       "name": "Platforms and Deployment",
       "keywords": [
         "Cloudflare Workers",
-        "Wrangler CLI",
         "GitHub Pages",
         "Shopify",
         "DNS and TLS configuration"
       ]
     },
     {
-      "name": "Security and Accessibility",
+      "name": "Security and Configuration",
       "keywords": [
         "Content Security Policy",
         "HTTP security headers",
         "Scoped API tokens",
-        "WCAG contrast requirements",
         "SPF/DKIM/DMARC"
+      ]
+    },
+    {
+      "name": "Accessibility",
+      "keywords": [
+        "WCAG color contrast requirements"
       ]
     }
   ],
@@ -121,8 +132,8 @@
         "Migrated a client's live production domain off Shopify to Cloudflare in five days, cutting recurring hosting cost from $39 per month to near zero",
         "Built and deployed a bilingual English and Japanese site to Cloudflare Workers from a Git repository using the Wrangler CLI",
         "Configured DNS, TLS, and HTTP security headers on production domains, including an enforced Content Security Policy",
-        "Owned each engagement from first meeting through handoff, including repository ownership transfer and a plain-language platform walkthrough",
-        "Won this contract from a company I had previously worked for as a contractor, which produced a referral to a second client"
+        "Managed client engagements from initial consultation through handoff, including repository ownership transfer and a plain-language walkthrough of the platform",
+        "Secured a website project through a former contracting relationship, which led to a referral to a second client"
       ]
     },
     {
