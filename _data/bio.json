@@ -4,8 +4,8 @@
     "label": "Computer Science Student & Web Developer",
     "picture": "img/tomoki-square.jpg",
     "email": "tom@ourcradle.com",
-    "website": "https://ourcradle.com",
-    "summary": "I am pursuing a B.S. in Computer Science on the general track at the University of Hawaii at Manoa, and I expect to graduate in Fall 2027. I enjoy building things, and I am working toward a career that intersects software and hardware.",
+    "website": "https://tomokicheung.com",
+    "summary": "I am pursuing a B.S. in Computer Science on the general track at the University of Hawaii at Manoa, and I expect to graduate in Fall 2027. Alongside school I run a small web development studio in Honolulu, building sites for businesses that do not have anyone technical on staff. I like building things, and I am working toward a career where software and hardware meet.",
     "location": {
       "postalCode": "96826",
       "city": "Honolulu",
@@ -22,6 +22,11 @@
         "network": "linkedin",
         "username": "tomokicheung",
         "url": "https://www.linkedin.com/in/tomokicheung/"
+      },
+      {
+        "network": "globe",
+        "username": "tomokicheung.com",
+        "url": "https://tomokicheung.com"
       }
     ]
   },
@@ -51,20 +56,43 @@
       "keywords": [
         "C",
         "Java",
+        "TypeScript",
+        "JavaScript",
         "HTML",
-        "CSS",
-        "JavaScript"
+        "CSS"
       ]
     },
     {
-      "name": "Tools and Platforms",
+      "name": "Frameworks and Tools",
       "keywords": [
+        "Astro",
+        "Jekyll",
+        "Node.js",
+        "npm",
         "Git/GitHub",
-        "Linux/Ubuntu",
+        "GitHub Actions",
         "VS Code",
-        "Cloudflare",
+        "Linux/Ubuntu"
+      ]
+    },
+    {
+      "name": "Platforms and Deployment",
+      "keywords": [
+        "Cloudflare Workers",
+        "Wrangler CLI",
         "GitHub Pages",
-        "Jekyll"
+        "Shopify",
+        "DNS and TLS configuration"
+      ]
+    },
+    {
+      "name": "Security and Accessibility",
+      "keywords": [
+        "Content Security Policy",
+        "HTTP security headers",
+        "Scoped API tokens",
+        "WCAG contrast requirements",
+        "SPF/DKIM/DMARC"
       ]
     }
   ],
@@ -97,6 +125,7 @@
       "highlights": [
         "Migrated a client's live production domain off Shopify to Cloudflare in five days, cutting recurring hosting cost from $39 per month to near zero",
         "Built and deployed a bilingual English and Japanese site to Cloudflare Workers from a Git repository using the Wrangler CLI",
+        "Configured DNS, TLS, and HTTP security headers on production domains, including an enforced Content Security Policy",
         "Owned each engagement from first meeting through handoff, including repository ownership transfer and a plain-language platform walkthrough",
         "Won this contract from a company I had previously worked for as a contractor, which produced a referral to a second client"
       ]
