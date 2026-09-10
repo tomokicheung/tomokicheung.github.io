@@ -87,18 +87,19 @@
       ]
     },
     {
-      "name": "Security and Configuration",
+      "name": "Web Application Security",
       "keywords": [
         "Content Security Policy",
         "HTTP security headers",
-        "Scoped API tokens",
-        "SPF/DKIM/DMARC"
+        "Scoped API tokens"
       ]
     },
     {
-      "name": "Accessibility",
+      "name": "Email Authentication",
       "keywords": [
-        "WCAG color contrast requirements"
+        "SPF",
+        "DKIM",
+        "DMARC"
       ]
     }
   ],
