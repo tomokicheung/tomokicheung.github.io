@@ -7,8 +7,8 @@ date: 2026-07-24
 published: true
 labels:
   - Web Development
-  - HTML/CSS/JavaScript
   - Entrepreneurship
+  - Client Work
 summary: "My Honolulu web development studio, offering website builds, maintenance, and domain setup."
 ---
 

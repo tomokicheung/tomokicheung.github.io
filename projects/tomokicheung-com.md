@@ -6,6 +6,7 @@ title: "tomokicheung.com"
 date: 2026-09-09
 published: true
 labels:
+  - Web Development
   - Astro
   - Cloudflare Workers
   - TypeScript

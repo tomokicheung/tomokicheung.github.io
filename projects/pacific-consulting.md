@@ -7,7 +7,7 @@ date: 2026-08-02
 published: true
 labels:
   - Web Development
-  - Cloudflare
+  - Cloudflare Workers
   - Internationalization
   - Client Work
 summary: "A bilingual client website, moved from Shopify to Cloudflare to reduce hosting costs."
