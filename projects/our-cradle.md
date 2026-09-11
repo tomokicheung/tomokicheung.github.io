@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/ourcradle/ourcradle-square.png
-banner: img/banners/mana-hawaii-1600x800.jpg
+banner: img/banners/ourcradle-1600x800.jpg
 title: "Our Cradle"
 date: 2026-07-24
 published: true
