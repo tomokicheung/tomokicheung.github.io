@@ -24,6 +24,6 @@ The build helped me become more deliberate about reviewing changes. In one insta
 
 I kept a build runbook documenting technical decisions, problems encountered, and their resolutions. Those notes explain the reasoning behind changes and what to check next time. The site gives me a place to share my work, and the documentation gives me a process to revisit and improve as I continue building.
 
-Live site: [tomokicheung.com](https://tomokicheung.com/)
+Live site: <a href="https://tomokicheung.com/" target="_blank" rel="noopener noreferrer">tomokicheung.com</a>
 
-Source: [github.com/tomokicheung/tomokicheung.com](https://github.com/tomokicheung/tomokicheung.com)
+Source: <a href="https://github.com/tomokicheung/tomokicheung.com" target="_blank" rel="noopener noreferrer">github.com/tomokicheung/tomokicheung.com</a>

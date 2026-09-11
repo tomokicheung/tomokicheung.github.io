@@ -19,6 +19,6 @@ Their website was running on Shopify, which meant they were paying a monthly e-c
 
 I was the sole developer on the project, working with Claude throughout. I rebuilt the site as a static build served through Cloudflare, keeping their existing domain so their web address never changed and there was no downtime during the cutover. Rather than maintain two parallel sites, I built a single codebase with an internationalization layer, so the English and Japanese content lives side by side and stays in sync. The contact form runs through Formspree, which removed the need for a backend entirely. I handled DNS, TLS, and the security headers on the production domain, and wrote a migration runbook and plain-language handoff documentation so the client knows where every account lives and who to call.
 
-Live site: [pacificconsultinghawaii.com](https://pacificconsultinghawaii.com/)
+Live site: <a href="https://pacificconsultinghawaii.com/" target="_blank" rel="noopener noreferrer">pacificconsultinghawaii.com</a>
 
 Source is a private repository. Ownership was transferred to the client at handover, and I remain a collaborator for ongoing maintenance. This project is written about here with the client's permission.
