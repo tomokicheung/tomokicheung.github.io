@@ -2,6 +2,7 @@
 layout: project
 type: project
 image: img/kraftycase/kraftycase-square.png
+banner: img/banners/krafty-case-1600x800.jpg
 title: "Krafty Case"
 date: 2024-05-21
 published: true

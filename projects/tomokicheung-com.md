@@ -2,6 +2,7 @@
 layout: project
 type: project
 image: img/tomokicheung/tomokicheung-square.png
+banner: img/banners/about-1600x800.jpg
 title: "tomokicheung.com"
 date: 2026-09-09
 published: true

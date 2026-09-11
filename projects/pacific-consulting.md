@@ -2,6 +2,7 @@
 layout: project
 type: project
 image: img/pacific/pacific-square.png
+banner: img/banners/pacific-consulting-1600x800.jpg
 title: "Pacific Consulting Hawaiʻi"
 date: 2026-08-02
 published: true
